@@ -1,0 +1,143 @@
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Tour Guide</string>
+
+
+    <string name="category_monuments">Monuments</string>
+
+
+    <string name="category_malls">Malls</string>
+
+
+    <string name="category_hotels">Hotels</string>
+
+
+    <string name="category_food">Food</string>
+
+    <string name="category_songs">Music</string>
+    <string name="hello_blank_fragment">hello frennns</string>
+
+
+    <string-array name="food_dishes">
+        <item>Chicken Karahi</item>
+        <item>Seekh Kabab</item>
+        <item>Biryani</item>
+        <item>Sweet Punjabi Lassi</item>
+        <item>Halwa Poori</item>
+        <item>Kheer</item>
+    </string-array>
+    <string-array name="hotel_names">
+        <item>Pearl Continental</item>
+        <item>Avari Hotel</item>
+        <item>Hospitality Inn</item>
+        <item>Faletti Hotel</item>
+        <item>The Nishat Hotel</item>
+        <item>Kheer</item>
+    </string-array>
+    <string-array name="monument_names">
+        <item>Badshahi Mosque</item>
+        <item>Lahore Fort</item>
+        <item>Minar-e-Pakistan</item>
+        <item>Wazir Khan Mosque</item>
+    </string-array>
+    <string-array name="mall_names">
+        <item>Emporium Mall</item>
+        <item>Mall of Lahore</item>
+        <item>Fortress Square</item>
+        <item>Anarkali Bazar</item>
+    </string-array>
+    <string-array name="song_names">
+        <item>Afreen</item>
+        <item>Jazba Junoon</item>
+        <item>Sammi Meri Waar</item>
+    </string-array>
+    <string name="badshahi_mosque">\n\nThe Badshahi Mosque is a Mughal era masjid in Lahore, capital of the Pakistani
+        province of Punjab, Pakistan. The mosque is located west of Lahore Fort along the outskirts of the Walled City
+        of Lahore, and is widely considered to be one of the most iconic landmarks in the world. Badshahi Mosque was
+        commissioned by Emperor Aurangzeb in 1671, with construction of the mosque lasting for two years until 1673.
+        The mosque is an important example of Mughal architecture, with an exterior that is decorated with carved red
+        sandstone with marble inlay. It remains the largest and most recent of the grand imperial mosques of the
+        Mughal-era, and is the second-largest mosque in Pakistan.\n\n</string>
+    <string name="lahore_fort">\n\nThe Lahore Fort, is a citadel in the city of Lahore,Punjab, Pakistan. The fortress
+        is located at the northern end of walled city Lahore, and spreads over an area greater than 20 hectares.
+        It contains 21 notable monuments, some of which date to the era of Emperor Akbar. The Lahore Fort is notable
+        for having been almost entirely rebuilt in the 17th century, when the Mughal Empire was at the height of
+        its splendour and opulence. Though the site of the Lahore Fort has been inhabited for millennia,
+        the first record of a fortified structure at the site was in regard to an 11th-century mud-brick fort.
+        The foundations of the modern Lahore Fort date to 1566 during the reign of Emperor Akbar, who bestowed the
+        fort with a syncretic architectural style that featured both Islamic and Hindu motifs.
+        Additions from the Shah Jahan period are characterized by luxurious marble with inlaid Persian floral designs,
+        while the forts grand and iconic Alamgiri Gate was constructed by the last of the great Mughal Emperors,
+        Aurangzeb, and faces the renowned Badshahi Mosque.\n\n\</string>
+    <string name="minar_e_pakistan">\n\nMinar-e-Pakistan is a national monument located in Lahore, Pakistan.
+        The tower was built between 1960 and 1968 on the site where the All-India Muslim League passed the
+        Lahore Resolution on 23 March 1940 - the first official call for a separate and independent homeland for the
+        Muslims of British India, as espoused by the two-nation theory. The resolution eventually helped lead to the
+        emergence of an independent Pakistani state in 1947.\n\n</string>
+    <string name="wazir_khan_mosque">\n\nConsidered to be the most ornately decorated Mughal-era mosque, Wazir Khan
+        Mosque is renowned for its intricate faience tile work known as kashi-kari, as well as its interior surfaces
+        that are almost entirely embellished with elaborate Mughal-era frescoes. </string>
+    <string name="emporium_mall">\n\nCONTACT INFO\n\tAdjacent to Lahore \n\tInternational Expo Centre,
+        \n\tAbdul Haque Rd\n\tJohar Town, Lahore, Pakistan\n\t+92 42 3259 2000
+        \n\tinfo@nishatemporium.com\n\tnishatemporium.com\n\n
+    </string>
+    <string name="mall_of_lahore">\n\nPark Lane Tower, \n172 Tufail Road, Lahore Cantt.\nTel: +92 42 111 111 980
+        \nFax: +92 42 662 2449\n\n</string>
+    <string name="fortress_square">\n Fortress Square Lahore\n\tFood court,\n\tState of the art cinema,Cinepax.
+        \n\t100+ Shopping Brands\n\tValet parking\n\n</string>
+    <string name="anarkali_bazar">\n\nAnarkali remains one of the oldest surviving markets in South Asia, dating back at
+        least 200 years and derives its name from the nearby mausoleum thought to be that of a courtesan girl named
+        Anārkalī, who was chased out of town by order of the Mughal Emperor Akbar for having a love affair with his
+        son, Prince Salīm, who would later become Emperor Jahāngīr. Anarkali mainly sells textiles, garments,
+        jewellery, and many other items.\n\n</string>
+    <string name="karahi">\n\nChicken karahi, also known as gosht karahi, and kadai chicken, is a dish from the
+        Indian subcontinent noted for its spicy taste; it is notable in Pakistani and North Indian cuisine.
+        The Pakistani version does not have capsicum or onions whereas the North Indian version uses capsicum.
+        The dish is prepared in a karahi.\n\n</string>
+    <string name="kabab">\n\nSeekh kebab is a type of kebab, originating from the Indian subcontinent, made with Indian
+        spices mixed with minced or ground meat, formed into cylinders on skewers and grilled. It is typically 
+        cooked on a mangal or barbecue, or in a tandoor.\n\n</string>
+    <string name="biryani">\n\nBiryani, is a mixed rice dish that originates from the Muslims of the Indian subcontinent.
+        This dish is especially popular throughout the Indian subcontinent, as well as among the diaspora from the 
+        region. It is also prepared in other regions such as Iraqi Kurdistan. It is made with Indian spices, rice, meat
+        (chicken, goat, beef, prawn, or fish), vegetables or eggs.\n\n</string>
+    <string name="lassi">\n\nLassi is a blend of yogurt, water, spices and sometimes fruit. Traditional lassi
+        (a.k.a., "sweet lassi", or simply "lassi") is a sweet savoury drink, sometimes flavoured with ground and
+        roasted cumin. Salty lassi, however, contains salt and other spices, instead of sugar, and is similar to
+        doogh.\n\n</string>
+    <string name="poori">\n\nPuri (also spelled Poori) is an unleavened deep-fried bread, originating from South Asia.
+        It is eaten for breakfast or as a snack or light meal. It is usually served with a savory curry or bhaji,
+        as in Puri bhaji, but may also be eaten with sweet dishes. Puris are most commonly served at breakfast.
+        It is also served at special or ceremonial functions as part of ceremonial rituals along with other
+        vegetarian food offered in prayer as prasadam. It is similar to Gnocco fritto fried bread from Modena,
+        Italy.\n\n</string>
+    <string name="kheer">\n\nKheer is a rice pudding, originating from the Indian subcontinent from the state of Punjab,
+        made by boiling with milk and sugar one of the following: rice, broken wheat, tapioca, vermicelli,
+        sweet corn, etc. It is flavoured with cardamom, raisins, saffron, cashews, pistachios, almonds or other
+        dry fruits and nuts. It is typically served during a meal or as a dessert.
+        It is also known in some regions as meetha bhaat, payasam, payasa, and phirni.\n\n</string>
+    <string name="pc">\nPearl Continental Lahore\n\tShara-e-Quaid-e-Azam, Lahore.\n\tTel: 92-42-111 505 505
+        \n\tFax: 92-42-3636 2698\n\tE-mail: pchl@pchotels.com\n\tWebsite: www.pchotels.com\n\t
+        Facebook: www.facebook.com/PC.Lahore</string>
+    <string name="nishat">\nThe Nishat Hotel\n\t9A Mian Mahmud Kasuri Road, Gulberg III, Lahore
+        \n\tTel: +92-042-111-000-777\n\tEmail: info@nishathotel.com</string>
+    <string name="flattei">Contact Info\n\t24 – Egerton Road,\nLahore 54000.\n\tPakistan\nUAN # 042-111-444-333
+\n\tTel: 92 42 36363946 - 51\n\tFax # 92 42 36366818\n\tEmail: info@falettishotel.com\n\tcomplaints@falettishotel.com</string>
+<string name="avari">\nAvari Lahore\n\t87Shahrah-e-Quaid-e-Azam\n\tLahore 54000\n\tPakistan\n\tTel: (92-42) 3-6366366
+\n\tUAN: 111 AVARIS (111 282 747)\n\tToll-Free: 0800-88888\n\tFax: (92-42) 3-6365367\n\tEmail: lahore@avari.com</string>
+    <string name="hos">\nHospitality Inn Lahore\n\tAddress :  25 Egerton Road, Lahore.\n\tPhone	: +92-42-36310077\n\tFax:+92-42-36314514</string>
+</resources>
